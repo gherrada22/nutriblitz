@@ -16,82 +16,77 @@ const Recipes: React.FC = () => {
   const recipes: Recipe[] = [
     {
       id: 1,
-      name: "Morning Boost Shake",
-      description: "Start your day with this energizing, nutrient-packed shake that will keep you full and focused all morning.",
+      name: "Tropical Smoothie",
+      description: " ",
       ingredients: [
-        "1 scoop Maca Boost powder",
-        "1 frozen banana",
-        "1 cup almond milk",
-        "1 tbsp almond butter",
-        "1/2 tsp cinnamon",
-        "1 tsp honey (optional)"
+        "1 tablespoon Nutriblitz powder",
+        "1/2 cup frozen mango chunks",
+        "1/4 cup coconut milk",
+        "1 tsp chia seeds",
+        "Honey to taste (optional)"
       ],
       steps: [
-        "Add all ingredients to a blender",
-        "Blend on high for 45-60 seconds until smooth",
-        "Pour into your favorite glass and enjoy immediately"
+        "Blend Nutriblitz powder, frozen mango chunks and coconut milk until creamy.",
+        "Serve in a glass, drizzle with honey and sprinkle with chia seeds.",
+        "Boost a slice of pineapple on the rim for a tropical touch."
       ],
-      image: "https://images.pexels.com/photos/416528/pexels-photo-416528.jpeg?auto=compress&cs=tinysrgb&w=800",
+      image: "/img/tropical-smoothie.png",
       color: "yellow-500"
     },
     {
       id: 2,
-      name: "Chocolate Protein Delight",
-      description: "A delicious, protein-rich chocolate shake that's perfect for post-workout recovery or as a satisfying snack.",
+      name: "CHOCO-BERRY BLISS ",
+      description: " ",
       ingredients: [
-        "1 scoop Cacao Power powder",
-        "1 cup oat milk",
-        "1/2 frozen avocado",
-        "1 tbsp maple syrup",
-        "1 scoop plant protein",
-        "Ice cubes (optional)"
+        "1 tablespoon Nutriblitz powder.",
+        "150 ml milk (or almond milk)",
+        "½ cup frozen strawberries",
+        "1 tablespoon of chia seeds"
       ],
       steps: [
-        "Combine all ingredients in a high-speed blender",
-        "Blend until creamy and smooth (about 1 minute)",
-        "Add more liquid if needed to reach desired consistency"
+        "Blend the nutriblitz powder, milk and frozen strawberries in a blender until smooth.",
+        "Add the chia seeds and blend for 10 seconds to preserve the texture.",
+        "Pour into a glass, top with chocolate chips or a drizzle of honey"
       ],
-      image: "https://images.pexels.com/photos/4021983/pexels-photo-4021983.jpeg?auto=compress&cs=tinysrgb&w=800",
+      image: "/img/berry.png",
       color: "brown-600"
     },
     {
       id: 3,
-      name: "Tropical Green Smoothie",
-      description: "A refreshing, tropical smoothie loaded with vitamins and antioxidants for a perfect afternoon pick-me-up.",
+      name: "PROTEIN POWER BOWL",
+      description: " ",
       ingredients: [
-        "1 scoop Banana Fuel powder",
-        "1 cup coconut water",
-        "1 cup spinach",
-        "1/2 cup frozen pineapple",
-        "1/2 cup frozen mango",
-        "Juice of 1/2 lime"
+        "2 tablespoons NUTRIBLITZ powder.",
+        "200 ml oat milk.",
+        "¼ cup frozen blueberries.",
+        "1 tablespoon of peanut butter.",
+        "Toppings: banana slices, hemp seeds, honey."
       ],
       steps: [
-        "Place spinach and liquid in blender first",
-        "Add remaining ingredients and blend on high speed",
-        "Blend until smooth and bright green"
+        "Blend the nutriblitz powder, oat milk and blueberries until smooth.",
+        "Add the peanut butter and mix lightly for a marbled effect.",
+        "Place in a bowl, arrange the banana slices and sprinkle with the hemp seeds."
       ],
-      image: "https://images.pexels.com/photos/989960/pexels-photo-989960.jpeg?auto=compress&cs=tinysrgb&w=800",
+      image: "/img/power.png",
       color: "green-500"
     },
     {
       id: 4,
-      name: "Overnight Breakfast Jar",
-      description: "Prepare this the night before for a quick, filling breakfast that's ready when you are.",
+      name: "CARAMEL APPLE CRUNCH",
+      description: " ",
       ingredients: [
-        "1 scoop Oat Foundation powder",
-        "1/2 cup rolled oats",
-        "3/4 cup yogurt of choice",
-        "1 tbsp chia seeds",
-        "1/2 cup berries",
-        "1 tbsp honey or maple syrup"
+        "1 tablespoon Nutriblitz powder",
+        "½ cup apple chunks",
+        "½ cup vanilla Greek yogurt",
+        "¼ cup oats",
+        "Toppings: Apple slices, caramel drizzle, crushed walnuts."
       ],
       steps: [
-        "Mix all ingredients except berries in a jar",
-        "Cover and refrigerate overnight",
-        "Top with fresh berries before serving"
+        "Blend nutriblitz powder, apple chunks, yogurt and oatmeal until thick.",
+        "In a glass, alternate the smoothie and apple slices.",
+        "Top with caramel, add walnuts and sprinkle with cinnamon."
       ],
-      image: "https://images.pexels.com/photos/8504675/pexels-photo-8504675.jpeg?auto=compress&cs=tinysrgb&w=800",
+      image: "/img/apple.png",
       color: "amber-600"
     }
   ];
@@ -176,20 +171,6 @@ const Recipes: React.FC = () => {
                     </ol>
                   </div>
                   
-                  <div className="mt-8 flex justify-between items-center">
-                    <div>
-                      <span className="block text-brown-600 text-sm">Prep time</span>
-                      <span className="block text-lg font-bold text-brown-800">5 min</span>
-                    </div>
-                    <div>
-                      <span className="block text-brown-600 text-sm">Calories</span>
-                      <span className="block text-lg font-bold text-brown-800">250 kcal</span>
-                    </div>
-                    <div>
-                      <span className="block text-brown-600 text-sm">Protein</span>
-                      <span className="block text-lg font-bold text-brown-800">15g</span>
-                    </div>
-                  </div>
                   
                   <button className="mt-8 w-full bg-green-500 hover:bg-green-600 text-white py-3 rounded-lg font-medium transition-colors duration-300">
                     Print Recipe

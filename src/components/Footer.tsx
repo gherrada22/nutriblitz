@@ -60,17 +60,17 @@ const Footer: React.FC = () => {
               {[
                 { 
                   icon: <Mail size={16} />, 
-                  text: 'hello@nutriblitz.com',
-                  href: 'mailto:hello@nutriblitz.com' 
+                  text: 'comercial@nutriblitz.com.pe',
+                  href: 'mailto:comercial@nutriblitz.com.pe' 
                 },
                 { 
                   icon: <Phone size={16} />, 
-                  text: '+1 (888) 123-4567',
-                  href: 'tel:+18881234567' 
+                  text: '+51 985443209',
+                  href: 'tel:+51985443209' 
                 },
                 { 
                   icon: <MapPin size={16} />, 
-                  text: '123 Superfood St, San Francisco, CA 94103',
+                  text: 'Calle Los Álamos 173, Chorrillos',
                   href: '#' 
                 }
               ].map((contact, i) => (
