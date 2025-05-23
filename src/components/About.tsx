@@ -16,9 +16,9 @@ const About: React.FC = () => {
           <div className="relative">
             <div className="relative z-10 rounded-lg overflow-hidden shadow-xl">
               <img 
-                src="https://images.pexels.com/photos/5946081/pexels-photo-5946081.jpeg?auto=compress&cs=tinysrgb&w=800" 
-                alt="NutriBlitz Founders" 
-                className="w-full h-auto"
+          src="/img/history.png" 
+          alt="NutriBlitz Founders" 
+          className="w-full h-auto max-w-lg mx-auto"
               />
             </div>
             <div className="absolute top-0 left-0 -ml-4 -mt-4 w-full h-full bg-green-100 rounded-lg transform -rotate-3 z-0"></div>
@@ -28,25 +28,20 @@ const About: React.FC = () => {
           </div>
           
           <div>
-            <h3 className="text-2xl font-bold text-brown-800 mb-6">From Kitchen Experiment to Premium Brand</h3>
             <p className="text-brown-700 mb-6">
-              NutriBlitz began in 2018 as a kitchen experiment by Sofia and Marco, two nutritionists passionate about creating superfood blends that were both delicious and functional.
+              Founded in 2025, NUTRIBLITZ was created in response to the growing demand for fast food options without compromising nutritional quality. 
             </p>
             <p className="text-brown-700 mb-6">
-              Frustrated by the artificial ingredients and excessive sugars in conventional protein powders, they set out to create a truly clean alternative using only whole food ingredients. After months of testing, they perfected their first formula – the now-legendary Maca Boost.
-            </p>
-            <p className="text-brown-700 mb-6">
-              What started as homemade blends for friends and family quickly gained popularity through local farmers' markets and wellness events. Today, NutriBlitz has grown into a premium brand trusted by health enthusiasts, athletes, and busy professionals around the world.
+              Our products are formulated with premium ingredients, such as: cocoa, maca, oats and banana, enriched with vitamins and minerals. Aimed at professionals and active people who prioritize their health without sacrificing their time, NUTRIBLITZ is more than a supplement: it is a strategic ally for an active and balanced lifestyle.
             </p>
             <h4 className="text-xl font-bold text-brown-800 mt-8 mb-4">Our Mission</h4>
             <p className="text-brown-700 mb-6">
-              We're committed to making nutrition simple, accessible, and enjoyable for everyone. With NutriBlitz, you don't have to choose between convenience, taste, and health – you can have all three.
+              Our mission is to empower professionals and people with fast-paced lifestyles by offering instant fortified supplements that not only nourish the body, but also optimize time and productivity.
             </p>
-            <div className="mt-8">
-              <button className="bg-green-500 hover:bg-green-600 text-white px-8 py-3 rounded-full text-lg font-medium transition-all duration-300 transform hover:scale-105 shadow-lg">
-                Learn More
-              </button>
-            </div>
+             <h4 className="text-xl font-bold text-brown-800 mt-8 mb-4">Our Vision</h4>
+             <p className="text-brown-700 mb-6">
+              To be a leader in food innovation by 2027, recognized for revolutionizing consumer habits with fortified products that combine science, quality and convenience, adapted to a world on the move
+            </p>
           </div>
         </div>
         
