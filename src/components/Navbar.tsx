@@ -32,11 +32,11 @@ const Navbar: React.FC = () => {
           <div className="hidden md:block">
             <ul className="flex space-x-8">
               {[
-                ['Productos', 'products'],
-                ['Beneficios', 'benefits'],
-                ['Recetas', 'recipes'],
-                ['Nosotros', 'about'],
-                ['Contacto', 'contact']
+                ['Products', 'products'],
+                ['Benefits', 'benefits'],
+                ['Recipes', 'recipes'],
+                ['About', 'about'],
+                ['Contact', 'contact']
               ].map(([label, href]) => (
                 <li key={href}>
                   <a 
@@ -61,7 +61,7 @@ const Navbar: React.FC = () => {
             <button 
               className="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-full transition-colors duration-300 hidden md:block font-medium"
             >
-              Comprar Ahora
+              Shop Now
             </button>
             
             <button 
@@ -78,16 +78,16 @@ const Navbar: React.FC = () => {
         </div>
       </div>
       
-      {/* Menú móvil */}
+      {/* Mobile menu */}
       <div className={`md:hidden ${isOpen ? 'block' : 'hidden'}`}>
         <div className="px-2 pt-2 pb-4 bg-white shadow-lg">
           <ul className="space-y-2">
             {[
-              ['Productos', 'products'],
-              ['Beneficios', 'benefits'],
-              ['Recetas', 'recipes'],
-              ['Nosotros', 'about'],
-              ['Contacto', 'contact']
+              ['Products', 'products'],
+              ['Benefits', 'benefits'],
+              ['Recipes', 'recipes'],
+              ['About', 'about'],
+              ['Contact', 'contact']
             ].map(([label, href]) => (
               <li key={href}>
                 <a 
@@ -103,7 +103,7 @@ const Navbar: React.FC = () => {
               <button 
                 className="w-full mt-2 bg-green-500 hover:bg-green-600 text-white px-3 py-2 rounded-md transition-colors duration-300 font-medium"
               >
-                Comprar Ahora
+                Shop Now
               </button>
             </li>
           </ul>

@@ -21,34 +21,7 @@ const Products: React.FC = () => {
       color: 'yellow-600',
       bgColor: 'yellow-100',
       price: 24.99,
-      image: 'https://images.pexels.com/photos/6544097/pexels-photo-6544097.jpeg?auto=compress&cs=tinysrgb&w=800'
-    },
-    {
-      id: 2,
-      name: 'Poder Cacao',
-      description: 'Rico polvo de cacao antioxidante que mejora el estado de ánimo y proporciona energía sostenida.',
-      color: 'brown-600',
-      bgColor: 'brown-100',
-      price: 22.99,
-      image: 'https://images.pexels.com/photos/6544095/pexels-photo-6544095.jpeg?auto=compress&cs=tinysrgb&w=800'
-    },
-    {
-      id: 3,
-      name: 'Energía Plátano',
-      description: 'Nutritiva harina de plátano para la salud digestiva y dulzura natural en tus batidos.',
-      color: 'yellow-500',
-      bgColor: 'yellow-50',
-      price: 19.99,
-      image: 'https://images.pexels.com/photos/992824/pexels-photo-992824.jpeg?auto=compress&cs=tinysrgb&w=800'
-    },
-    {
-      id: 4,
-      name: 'Base Avena',
-      description: 'Saludable polvo de avena que proporciona carbohidratos complejos para energía duradera.',
-      color: 'amber-600',
-      bgColor: 'amber-50',
-      price: 18.99,
-      image: 'https://images.pexels.com/photos/4397840/pexels-photo-4397840.jpeg?auto=compress&cs=tinysrgb&w=800'
+      image: '/img/product.png'
     }
   ];
   
@@ -146,9 +119,6 @@ const Products: React.FC = () => {
                 ))}
               </div>
               <div className="mt-6 flex justify-center">
-                <button className="bg-transparent border-2 border-green-500 text-green-600 hover:bg-green-500 hover:text-white px-6 py-2 rounded-lg font-medium transition-colors duration-300">
-                  Ver Todos los Productos
-                </button>
               </div>
             </div>
           </div>
