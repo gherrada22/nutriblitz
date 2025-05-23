@@ -13,17 +13,17 @@ const Hero: React.FC = () => {
         <div className="grid md:grid-cols-2 gap-8 items-center">
           <div className="order-2 md:order-1">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-brown-800 leading-tight">
-              Potencia tu Día con <span className="text-green-600">Nutrición</span> Premium
+              Power Your Day with Premium <span className="text-green-600">Nutrition</span>
             </h1>
             <p className="mt-4 text-xl text-brown-700 max-w-lg">
-              Deliciosos batidos de superalimentos en polvo, repletos de nutrientes esenciales para una salud y vitalidad óptimas.
+              Delicious superfood powder shakes, packed with essential nutrients for optimal health and vitality.
             </p>
             <div className="mt-8 flex flex-col sm:flex-row gap-4">
               <button className="bg-green-500 hover:bg-green-600 text-white px-8 py-3 rounded-full text-lg font-medium transition-all duration-300 transform hover:scale-105 shadow-lg">
-                Comprar Ahora
+                Shop Now
               </button>
               <button className="border-2 border-brown-700 text-brown-800 hover:bg-brown-700 hover:text-white px-8 py-3 rounded-full text-lg font-medium transition-all duration-300">
-                Saber Más
+                Learn More
               </button>
             </div>
             <div className="mt-8 flex items-center space-x-6">
@@ -31,10 +31,6 @@ const Hero: React.FC = () => {
                 {[1, 2, 3, 4].map((i) => (
                   <div key={i} className="w-10 h-10 rounded-full border-2 border-white bg-gradient-to-br from-yellow-300 to-green-400"></div>
                 ))}
-              </div>
-              <div>
-                <p className="text-green-600 font-bold">500+</p>
-                <p className="text-brown-700 text-sm">Clientes Satisfechos</p>
               </div>
             </div>
           </div>
@@ -44,8 +40,8 @@ const Hero: React.FC = () => {
               <div className="absolute inset-0 bg-gradient-to-br from-green-300 to-yellow-300 rounded-full opacity-20 animate-pulse"></div>
               <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-48 h-48 md:w-64 md:h-64 lg:w-80 lg:h-80 bg-white rounded-full shadow-2xl overflow-hidden">
                 <img 
-                  src="https://images.pexels.com/photos/3872370/pexels-photo-3872370.jpeg?auto=compress&cs=tinysrgb&w=800" 
-                  alt="Batido NutriBlitz" 
+                  src="/img/torta.png"
+                  alt="NutriBlitz Shake" 
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -56,7 +52,7 @@ const Hero: React.FC = () => {
               </div>
               <div className="absolute -top-4 -left-4 bg-white rounded-lg shadow-lg p-3 animate-bounce delay-300">
                 <div className="bg-green-100 rounded-full p-2">
-                  <span className="block text-center font-bold text-green-700">Vegano</span>
+                  <span className="block text-center font-bold text-green-700">Vegan</span>
                 </div>
               </div>
             </div>
